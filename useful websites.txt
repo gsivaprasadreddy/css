@@ -1,0 +1,57 @@
+https://mdbootstrap.com/education/angular/ =====mdbootstrap
+https://startbootstrap.com/====bootstrap
+https://getbootstrap.com/docs/4.3/components/alerts/ ===bootstrap4
+https://www.w3.org/TR/html52/introduction.html====html
+https://html5boilerplate.com/===html
+https://css-tricks.com/almanac/====css3
+https://www.javascript.com/====javascript
+https://developer.mozilla.org/====javascript
+https://jquery.com/download/ ====jquery
+https://mdbootstrap.com/docs/jquery/===jquery
+https://learn.jquery.com/ajax/===ajax
+https://nodejs.org/en/download/==nodejs
+https://expressjs.com/====expressjs
+https://www.mongodb.com/====mongodb
+https://docs.angularjs.org====angularjs
+https://angular.io/docs===angular7
+https://gruntjs.com/===gruntjs
+https://jasmine.github.io/index.html===testing tool 
+https://codepen.io/====tool
+http://lesscss.org/====css
+https://www.meteor.com/install==tool
+https://www.w3schools.com/angular/default.asp====w3schools
+https://www.tutorialspoint.com/web_development===tutorialpoints
+https://materializecss.com/color.html===materialized 
+https://reactjs.org/docs/===reactjs
+https://github.com/gsivaprasadreddy====github account
+https://yarnpkg.com/en/===yarn
+https://www.npmjs.com/package/latest-version===npm
+https://www.json.org/===json
+https://www.typescriptlang.org/docs/home.html====typescript
+https://www.jqueryscript.net/===jqueryplugins
+https://www.jqueryscript.net/===css animation download
+https://www.bootstrapcdn.com/fontawesome/===fontawesome
+https://fontawesome.com/icons?d=gallery===fontawesome
+https://lodash.com/====lodash
+https://momentjs.com/=====momentjs
+https://guide.freecodecamp.org/angular/====freecodecamp
+https://www.nasscom.in/
+https://www.codechef.com/ide
+https://www.codecademy.com/catalog/subject/web-development====codecademy
+https://www.hackerrank.com/
+https://github.com/d3/d3/wiki===d3.js
+https://www.hackerearth.com/challenges/
+https://www.indiabix.com/===indiabix
+http://myjson.com/=====myjson
+https://mockaroo.com/====dummy content
+https://threejs.org/====3 js
+https://www.webdesignernews.com/
+https://developers.google.com/
+https://skillcrush.com/2017/03/20/front-end-developer-skills/====10skills
+https://teamtreehouse.com/tracks/front-end-web-development=====treehouse
+https://www.udemy.com/front-end-web-development/===udemy
+https://www.udemy.com/complete-front-end-web-developer-bootcamp/====udemy
+https://www.webstackacademy.com
+https://simplestepscode.com/web-development-project-ideas-from-experts/
+https://www.sitepoint.com/introduction-mean-stack/=====mean stack
+
