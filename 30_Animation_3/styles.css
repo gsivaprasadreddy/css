@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-image: url("img/grass.PNG");
+}
+.road{
+    position: relative;
+    height: 300px;
+    background: white url("img/road.png") repeat-x scroll center;
+}
+.cycle{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    animation: cycle 8s infinite linear;
+}
+@keyframes cycle {
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(1366px);
+    }
+}

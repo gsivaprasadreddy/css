@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+}
+
+
+#football{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 200px;
+    animation: football 7s infinite linear;
+    position: relative;
+}
+
+@keyframes football {
+    0%, 100% {
+        top: 0;
+        left: 0;
+        transform: scale(1, 1);
+
+    }
+    10%, 90% {
+        top: 200px;
+        left: 200px;
+        transform: scale(1, 1);
+    }
+    20%, 80% {
+        top: 0;
+        left: 400px;
+        transform: scale(1, 1);
+    }
+    30%, 70% {
+        top: 200px;
+        left: 600px;
+        transform: scale(1, 1);
+    }
+    40%, 60% {
+        top: 0;
+        left: 800px;
+        transform: scale(1, 1);
+    }
+    50% {
+        top: 200px;
+        left: 1000px;
+        transform: scale(1, 1);
+    }
+}
+    /*60%{
+        top: 0px;
+        left: 800px;
+        transform: scale(1,1);
+
+    }
+    70%{
+        top: 200px;
+        left: 600px;
+        transform: scale(1,1);
+    }
+    80%{
+        top: 0px;
+        left: 400px;
+        transform: scale(1,1);
+        }
+    90%{
+        top: 200px;
+        left: 200px;
+        transform: scale(1,1);
+
+    }
+    100%{
+        top: 0;
+        left: 0;
+        transform: scale(1,1);
+        }
+}

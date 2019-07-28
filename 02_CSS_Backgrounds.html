@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+            margin-bottom: 300px;
+        }
+        #bgColor{
+            background-color: teal;
+        }
+        #bgImage{
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            background-image: url("img/image3.jpeg");
+        }
+        #bgPosition{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background: lightsalmon url("img/nature.jpg") no-repeat scroll top right;
+        }
+        #bgRepeat{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background: lightsalmon url("img/nature.jpg") repeat-x scroll top right;
+        }
+        #bgAttachment{
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            background: white url("img/image5.jpeg") no-repeat fixed bottom;
+        }
+        #mixed-1{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background: linear-gradient(45deg,black,darkblue,blue,lightblue);
+        }
+
+        #bgSize{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background-image: url("img/image3.jpeg");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- BACKGROUND COLOR -->
+    <h2 id="bgColor">I am Teal color Background</h2>
+
+    <!-- BACKGROUND IMAGE -->
+    <h2>BACKGROUND IMAGE</h2>
+    <div id="bgImage">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi architecto atque blanditiis, cupiditate delectus distinctio est et eum exercitationem ipsam labore laboriosam magni minus modi molestiae mollitia necessitatibus neque nihil optio perferendis quam quos sapiente sunt suscipit ullam vero?</p>
+    </div>
+
+    <!-- BACKGROUND ATTACHMENT -->
+    <h2>BACKGROUND ATTACHMENT</h2>
+    <div id="bgAttachment"></div>
+
+    <!-- BACKGROUND POSITION -->
+    <h2>BACKGROUND POSITION</h2>
+    <div id="bgPosition"></div>
+
+    <!-- BACKGROUND REPEAT -->
+    <h2>BACKGROUND REPEAT</h2>
+    <div id="bgRepeat"></div>
+
+    <!-- Mixed Colors -->
+    <h2>Mixed Colors</h2>
+    <div id="mixed-1"></div>
+
+    <!-- Background Size -->
+    <h2>Background Size</h2>
+    <div id="bgSize"></div>
+
+</body>
+</html>

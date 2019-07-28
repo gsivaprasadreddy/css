@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS forms</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.2.css">
+    <link rel="stylesheet" href="bootstrap/css/animate.css">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: white url("img/image5.jpeg") no-repeat scroll bottom;
+        }
+        .form-div{
+            width: 230px;
+            text-align: center;
+            margin: 200px auto;
+            background-color: rgba(0,0,0,0.5);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ba9e82;
+        }
+        .form-div h2{
+            margin-top: 10px;
+            color: #ba9e82;
+        }
+        .fa-user-circle{
+            font-size: 90px;
+            border: 5px solid #8b7661;
+            border-radius: 50%;
+            margin-top: -60px;
+
+        }
+        .input-field{
+            font-size: 18px;
+            border: none;
+            outline: none;
+            height: 35px;
+            margin: 5px;
+            text-align: center;
+            background: transparent;
+            border-bottom: 3px solid #8b7661;
+            width: 200px;
+            color: white;
+        }
+        ::placeholder{
+            color: lightgray;
+        }
+        .input-field:focus{
+            border-bottom: 3px solid #ba9e82;
+        }
+        #login-btn{
+            background-color: #574937;
+            color: white;
+            margin: 15px 10px;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            padding: 12px 25px;
+            width: 150px;
+            border-radius: 50px;
+            box-shadow: 0 0 5px black;
+        }
+        #login-btn:hover{
+            background-color: #8b7661;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Login Form -->
+    <div class="form-div animated jackInTheBox">
+        <i class="fa fa-user-circle"></i>
+        <h2>Login Here</h2>
+        <form>
+            <input type="text" placeholder="User Name" class="input-field">
+            <br>
+            <input type="password" placeholder="Password" class="input-field">
+            <br>
+            <input type="submit" value="Login" id="login-btn">
+        </form>
+    </div>
+
+</body>
+</html>

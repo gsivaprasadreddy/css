@@ -1,0 +1,203 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: lightskyblue;
+}
+
+aside{
+    background: linear-gradient(45deg,black,blue);
+    width:300px;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    box-shadow: 0 0 10px black;
+    overflow-y: scroll;
+
+}aside img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+ }
+
+aside a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    display: block;
+    margin: 20px;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+aside a:hover{
+    background: linear-gradient(45deg,black,maroon,black);
+    border-radius: 30px;
+}
+section{
+     margin-left: 300px;
+
+ }
+#home{
+    background:linear-gradient(55deg,black,orangered,black,blue);
+    padding: 10px;
+}
+
+#home h2{
+    color: white;
+    font-size: 40px;
+}
+#home p{
+     color: white;
+     font-size: 20px;
+
+ }
+#carrer {
+    background: linear-gradient(55deg, black, orangered, black, blue);
+    padding:10px;
+    margin-top: 5px;
+
+}
+#carrer h3{
+    color: white;
+    padding-left: 15px;
+
+}
+#carrer p{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#AQT {
+    background: linear-gradient(55deg, black, orangered, black, blue);
+    margin-top: 5px;
+    padding:10px;
+
+}
+#AQT h3{
+    color: white;
+    padding-left: 15px;
+
+}
+#AQT ul li{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#skills {
+    background: linear-gradient(55deg, black, orangered, black, blue);
+    margin-top: 5px;
+    padding:10px;
+
+}
+#skills h3{
+    color: white;
+    padding-left: 15px;
+
+}
+#skills ul li{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#awards{
+    background: linear-gradient(55deg, black, orangered, black, blue);
+    margin-top: 5px;
+    padding:10px;
+
+}
+#awards h3{
+    color: white;
+    padding-left: 15px;
+
+}
+#awards ul li{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#PT{
+    background: linear-gradient(55deg, black, orangered, black, blue);
+    margin-top: 5px;
+    padding:10px;
+
+}
+#PT h3{
+    color: white;
+    padding-left: 15px;
+
+}
+#PT ul li{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#hobbies{
+    background: linear-gradient(55deg, black, orangered, black, blue);
+    margin-top: 5px;
+    padding:10px;
+
+}
+#hobbies h3{
+    color: white;
+    padding-left: 15px;
+
+}
+#hobbies ul li{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#myc{
+    background: linear-gradient(55deg, black, orangered, black, blue);
+    margin-top: 5px;
+    padding:10px;
+
+}
+#myc h3{
+    color: white;
+    padding-left: 15px;
+
+}
+ #myc .trans-1 img{
+    margin-top:10px;
+     border:2px solid black;
+    padding:2px;
+     width:150px;
+     height: 150px;
+}
+article{
+    background: linear-gradient(45deg,black,blue);
+    width: 220px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.trans-1:hover{
+    transform: translateY(-10px);
+    background: linear-gradient(45deg,black,red);
+}
+#details{
+    background: linear-gradient(55deg, black, orangered, black, blue);
+    margin-top: 5px;
+    padding:10px;
+
+}
+#details h3{
+    color: white;
+    padding-left: 15px;
+
+}
+#details pre{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+

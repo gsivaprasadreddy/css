@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.2.css">
+    <title>CSS Vertical Navigation</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        aside{
+            background: linear-gradient(45deg,black,red);
+            float: left;
+            font-family: Arial, sans-serif;
+            width: 300px;
+            height: 100%;
+            position: fixed;
+            box-shadow: 0 0 10px black;
+            text-align: center;
+            overflow-y: scroll; /* for scroll bar */
+        }
+        aside a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 18px 25px;
+            font-size: 20px;
+            margin: 15px;
+        }
+        aside a:hover{
+            background: linear-gradient(45deg,red,black);
+            border-radius: 50px;
+            box-shadow: 0 0 5px black;
+        }
+        .fa-user-circle{
+            font-size: 100px;
+            margin-top: 20px;
+            border: 15px solid darkred;
+            border-radius: 50%;
+            box-shadow: 0 0 5px black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <aside>
+        <i class="fa fa-user-circle"></i>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+        <a href="#">JQuery</a>
+        <a href="#">Bootstrap</a>
+        <a href="#">AJAX</a>
+        <a href="#">Node JS</a>
+        <a href="#">AJAX</a>
+        <a href="#">Node JS</a>
+        <a href="#">AJAX</a>
+        <a href="#">Node JS</a>
+    </aside>
+
+</body>
+</html>

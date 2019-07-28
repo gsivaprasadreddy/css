@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+    <style>
+        body{
+            margin-bottom: 300px;
+        }
+        /* tag selector */
+        h2{
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        /* Id selector */
+        #blue{
+            background-color: blueviolet;
+        }
+
+        /* Id selector */
+        #red{
+            background-color: red;
+        }
+
+        /* Id selector */
+        #orange{
+            background-color: orange;
+        }
+
+        /* Tag Selector */
+        p{
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 0 5px black;
+        }
+
+        /* Class Selector */
+        .yellow{
+            background-color: yellow;
+        }
+
+        .purple{
+            background-color: purple;
+            color: white;
+        }
+
+        /* Attribute Selectors */
+        input[type='text']{
+            background-color: lightsalmon;
+        }
+
+
+        input[type='text']:focus{
+            background-color: lightblue;
+            font-size: 18px;
+            height: 35px;
+        }
+
+        input[type='password']{
+            background-color: lightblue;
+        }
+
+        input[type='submit']{
+            background-color: forestgreen;
+            color: white;
+        }
+
+        input[type='submit']:hover{
+            background-color: red;
+            color: white;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Id Selector -->
+    <h2 id="blue">Good Morning</h2>
+    <h2 id="red">Good Evening</h2>
+    <h2 id="orange">Good Afternoon</h2>
+
+    <!-- Class Selector -->
+    <p class="yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur corporis ea enim error et fugit, laborum magnam modi nemo nesciunt obcaecati pariatur quas quasi quia quos sit velit veniam.</p>
+    <p class="yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur corporis ea enim error et fugit, laborum magnam modi nemo nesciunt obcaecati pariatur quas quasi quia quos sit velit veniam.</p>
+    <p class="purple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur corporis ea enim error et fugit, laborum magnam modi nemo nesciunt obcaecati pariatur quas quasi quia quos sit velit veniam.</p>
+    <p class="purple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur corporis ea enim error et fugit, laborum magnam modi nemo nesciunt obcaecati pariatur quas quasi quia quos sit velit veniam.</p>
+
+
+    <!-- Attribute Selectors -->
+    <form>
+        <label>User Name</label>
+        <input type="text">
+        <br>
+        <label>Password</label>
+        <input type="password">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS DropDown</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.2.css">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: white url("img/image1.jpg") no-repeat scroll center;
+        }
+        .dropdown_button{
+            background-image: url("img/image1.jpg");
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            font-size: 25px;
+            width: 250px;
+            box-shadow: 0 0 5px black;
+        }
+        .dropdown_list{
+            background-image: url("img/image1.jpg");
+            width: 250px;
+            box-shadow: 0 0 5px black;
+            display: none;
+            position: absolute;
+        }
+        .dropdown_list a{
+            display: block;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            padding: 18px 25px;
+            font-size: 18px;
+        }
+        .dropdown_list a:hover{
+            background-color: rgba(0,0,0,0.5);
+        }
+        .dropdown:hover .dropdown_list{
+            display: block;
+        }
+        .dropdown{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dropdown">
+        <button class="dropdown_button">Courses <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown_list">
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">JavaScript</a>
+            <a href="#">JQuery</a>
+            <a href="#">AJAX</a>
+            <a href="#">Bootstrap</a>
+            <a href="#">Angular JS</a>
+        </div>
+    </div>
+</body>
+</html>

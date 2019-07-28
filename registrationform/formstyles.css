@@ -1,0 +1,61 @@
+fieldset {
+    background:linear-gradient(45deg,maroon,sandybrown,orange);
+    box-shadow: 0 0 20px black;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    width: 30%;
+    margin: auto;
+    height: 70%;
+    font-size: 22px;
+    border: 3px solid black;
+
+}
+legend{
+    background-color: maroon;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 3px solid black;
+    padding: 10px;
+    font-size:25px;
+    color:white;
+}
+input{
+    border-radius: 10px;
+    background-color:cadetblue;
+    color: black;
+    font-size: 20px;
+
+}
+input:hover{
+    background-color:coral;
+
+}
+select{
+    background-color:cadetblue;
+    color: black;
+    font-size: 20px;
+}
+select:hover{
+    background-color: coral;
+}
+textarea{
+    background-color: palegreen;
+    border-radius: 10px;
+    color: green;
+    }
+textarea:hover{
+    background-color: coral;
+}
+td{
+    padding: 6px;
+}
+input[type=submit]{
+    margin-left: 50%;
+    margin-top: 20px;
+}
+input[type=reset]{
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+

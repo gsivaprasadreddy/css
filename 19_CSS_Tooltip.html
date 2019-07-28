@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Tooltip</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.2.css">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        .tooltip_btn{
+            background: linear-gradient(45deg,black,blue);
+            color: white;
+            border: none;
+            outline: none;
+            font-size: 30px;
+            padding: 10px 25px;
+            width: 200px;
+            border-radius: 5px;
+        }
+        .tooltip_text{
+            background-color: black;
+            width: 200px;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 18px;
+            display: none;
+            position: absolute;
+        }
+        .tooltip:hover .tooltip_text{
+            display: block;
+        }
+        .tooltip{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tooltip">
+        <button class="tooltip_btn">Hover Me</button>
+        <p class="tooltip_text">You hover on Me ?</p>
+    </div>
+
+</body>
+</html>

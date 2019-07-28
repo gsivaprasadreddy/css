@@ -1,0 +1,283 @@
+/* Add Your Styles Here */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+/* ------------------- Main Header ---------------- */
+.main-header{
+    background: white url("../images/image5.jpeg") no-repeat scroll center;
+    padding: 12px;
+    color: white;
+    text-align: right;
+}
+
+/* ------------------- Main Navbar ---------------- */
+.main-nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color: #be6347;
+    border-radius: 50px;
+    box-shadow: 0 0 5px gray;
+}
+.main-nav a.active{
+    background-color: darkred;
+    border-radius: 50px;
+}
+
+/* ---------------- Home News Section ---------------- */
+.home-news-section{
+    text-align: center;
+    margin-top: 10px;
+}
+.home-news-article{
+    border: 2px solid darkred;
+    width: 330px;
+    height: 500px;
+    display: inline-grid;
+    margin: 5px;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 0.5s;
+}
+.home-news-article:hover{
+    width: 340px;
+    box-shadow: 0 0 10px darkred;
+    cursor: pointer;
+}
+.home-news-article h2{
+    color: darkred;
+}
+.home-news-article img{
+    width: 100%;
+}
+
+/* --------------------- Main News Section ----------------- */
+.main-news-section{
+    width: 80%;
+    margin: auto;
+}
+.main-news-article{
+    text-align: center;
+}
+.main-news-article h2{
+    background: linear-gradient(45deg,#be6347,black,#be6347);
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px black;
+}
+.main-news-article p{
+    color: #be6347;
+    font-size: 18px;
+}
+.zoom{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+
+/* ------------------ Main Footer -------------- */
+.main-footer{
+    background: linear-gradient(45deg,#be6347,black,#be6347);
+    padding: 12px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+.main-footer a{
+    color: orange;
+}
+
+/* ----------------- News Page Section ---------------------- */
+.news-page-section{
+    width: 80%;
+    margin: auto;
+}
+.news-page-article{
+    margin: 20px 15px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+.news-page-heading{
+    background: linear-gradient(45deg,#be6347,black,#be6347);
+    padding: 20px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.news-page-heading h2{
+    margin: 0;
+}
+.news-page-body{
+    padding: 20px;
+}
+.news-page-body p{
+    font-size: 18px;
+    color: #be6347;
+}
+
+/* ------------- Gallery Section -------------- */
+.gallery-section{
+    text-align: center;
+    margin: 10px;
+}
+.gallery-figure{
+    border: 2px solid darkred;
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-figure:hover{
+    box-shadow: 0 0 10px darkred;
+    cursor: pointer;
+}
+.gallery-zoom{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.gallery-figure figcaption{
+    padding: 10px;
+    color: darkred;
+}
+
+/* --------------- About Section -------------- */
+.about-section{
+    width: 80%;
+    margin: auto;
+}
+.about-article{
+    background: white url("../images/gallery_mobile_3.jpg") no-repeat scroll top;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.company-images{
+    text-align: center;
+}
+.company-images img{
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+/* ----------------- Contact Section -------------- */
+.contact-section{
+    background: white url("../images/image5.jpeg") no-repeat scroll bottom;
+    padding: 15px;
+}
+.contact-article{
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px #ba9e82;
+    border-radius: 10px;
+}
+.contact-article h2{
+    color: lightgray;
+}
+.input-field{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    height: 35px;
+    margin: 5px;
+    text-align: center;
+    background: transparent;
+    border-bottom: 3px solid #8b7661;
+    width: 200px;
+    color: white;
+}
+.contact-form textarea{
+    border: 3px solid #8b7661;
+    outline: none;
+    background: transparent;
+    margin: 5px;
+    width: 180px;
+    color: white;
+    border-radius: 10px;
+}
+.contact-form textarea:focus{
+    border: 3px solid #ba9e82;
+}
+::placeholder{
+    color: lightgray;
+}
+.input-field:focus{
+    border-bottom: 3px solid #ba9e82;
+}
+#submit-btn{
+    background-color: #574937;
+    color: white;
+    margin: 15px 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 12px 25px;
+    width: 150px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px black;
+}
+#submit-btn:hover{
+    background-color: #8b7661;
+    cursor: pointer;
+}
+/* ------------ Media Queries --------------- */
+@media (max-width: 600px) {
+    .zoom{
+        width: 300px;
+        height: 150px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+    .zoom{
+        width: 400px;
+        height: 250px;
+    }
+}
